@@ -1,8 +1,8 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import Sidebar from './Sidebar'
-import Topnav from './Topnav'
-import Main from './Main'
+import Sidebar from './layout/Sidebar'
+import Topnav from './layout/Topnav'
+import Main from './layout/Main'
 
 const Home: NextPage = () => {
 

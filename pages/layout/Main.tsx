@@ -1,8 +1,8 @@
 import type { NextPage } from 'next'
-import Home from './Home'
-import Portfolio from './Portfolio'
-import About from './About'
-import Contact from './Contact'
+import Home from '../features/Home'
+import Portfolio from '../features/Portfolio'
+import About from '../features/About'
+import Contact from '../features/Contact'
 
 const Main: NextPage = () => {
   return (
