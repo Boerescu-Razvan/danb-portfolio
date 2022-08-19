@@ -1,6 +1,6 @@
 import type { NextPage } from 'next'
 
-const Sidebar: NextPage = () => {
+const Topnav: NextPage = () => {
   return (
     <nav className="bg-emerald-300 fixed z-10 w-full md:hidden">
       <ul className='flex h-20 w-full flex-row space-x-12 justify-center items-center'>
@@ -21,4 +21,4 @@ const Sidebar: NextPage = () => {
   )
 }
 
-export default Sidebar
+export default Topnav

@@ -1,6 +1,6 @@
 import type { NextPage } from 'next'
 
-const Sidebar: NextPage = () => {
+const Contact: NextPage = () => {
   return (
     <section className="bg-teal-100  min-h-screen">
       <h1 className="text-6xl font-bold">
@@ -24,4 +24,4 @@ const Sidebar: NextPage = () => {
   )
 }
 
-export default Sidebar
+export default Contact

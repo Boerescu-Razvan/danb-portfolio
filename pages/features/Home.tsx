@@ -1,7 +1,7 @@
 import type { NextPage } from 'next'
 import Image from 'next/image'
 
-const Sidebar: NextPage = () => {
+const Home: NextPage = () => {
   return (
     <section className="bg-slate-400  min-h-screen">
       <div className="w-full h-full bg-stone-600">
@@ -16,4 +16,4 @@ const Sidebar: NextPage = () => {
   )
 }
 
-export default Sidebar
+export default Home
