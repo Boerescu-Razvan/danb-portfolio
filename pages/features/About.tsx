@@ -2,48 +2,44 @@ import type { NextPage } from 'next'
 
 const Sidebar: NextPage = () => {
   return (
-    <section>
+    <section  className="bg-red-100  min-h-screen">
       <h1 className="text-6xl font-bold">
-        Lorem ipsum dolor sit amet
+        About me
       </h1>
-      <div className="mt-6 flex max-w-4xl flex-wrap items-center justify-around sm:w-full">
-        <a
-          href="https://nextjs.org/docs"
+      <div className="mt-6 flex flex-wrap items-center justify-around sm:w-full">
+        <span
           className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600"
         >
-          <h3 className="text-2xl font-bold">Documentation &rarr;</h3>
+          <h3 className="text-2xl font-bold">Blender</h3>
           <p className="mt-4 text-xl">
-            Find in-depth information about Next.js features and its API.
+            Sunt bun la asta
           </p>
-        </a>
-        <a
-          href="https://nextjs.org/learn"
+        </span>
+        <span
           className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600"
         >
-          <h3 className="text-2xl font-bold">Learn &rarr;</h3>
+          <h3 className="text-2xl font-bold">Photoshop</h3>
           <p className="mt-4 text-xl">
-            Learn about Next.js in an interactive course with quizzes!
+            Am si competenta asta
           </p>
-        </a>
-        <a
-          href="https://github.com/vercel/next.js/tree/canary/examples"
+        </span>
+        <span
           className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600"
         >
-          <h3 className="text-2xl font-bold">Examples &rarr;</h3>
+          <h3 className="text-2xl font-bold">Color theory</h3>
           <p className="mt-4 text-xl">
-            Discover and deploy boilerplate example Next.js projects.
+            Ma pricep la lucrul acesta
           </p>
-        </a>
+        </span>
 
-        <a
-          href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+        <span
           className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600"
         >
-          <h3 className="text-2xl font-bold">Deploy &rarr;</h3>
+          <h3 className="text-2xl font-bold">SketchUP</h3>
           <p className="mt-4 text-xl">
-            Instantly deploy your Next.js site to a public URL with Vercel.
+            Pot sa lucrez si cu dinasta
           </p>
-        </a>
+        </span>
       </div>
     </section>
   )
