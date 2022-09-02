@@ -1,7 +1,7 @@
 
 const About = (): JSX.Element => {
   return (
-    <section  className="bg-red-100  min-h-screen">
+    <section  className="bg-red-100  h-fit">
       <h1 className="text-6xl font-bold">
         About me
       </h1>

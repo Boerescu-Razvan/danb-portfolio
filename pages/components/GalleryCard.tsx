@@ -2,26 +2,23 @@ import * as React from 'react'
 import Image from 'next/image'
 
 type Props = {
-    imageUrl: string,
-    show: boolean
+    imageUrl: string
 }
 
-const GalleryCard = ({ imageUrl, show }: Props): JSX.Element => {
+const GalleryCard = ({ imageUrl }: Props): JSX.Element => {
     return (
-        <div
-            className={`relative transition ease-in duration-300 transform ${show ? "" : "translate-y-16 opacity-0"
-                }`}
-        >
-            <div className="inset-0 z-10 flex transition duration-200 ease-in hover:opacity-0">
-                <div className=" inset-0 bg-black opacity-70"></div>
-                <div className="mx-auto text-white z-10 self-center uppercase tracking-widest text-sm">
-                    Hello World
+        <div className={"relative"}>
+            <div className="inset-0 z-10 opacity-0 absolute flex transition duration-200 ease-in hover:opacity-100  w-full, h-full bg-emerald-300 hover:bg-opacity-80">
+                <div className="mx-auto text-white text-2xl z-10 self-center uppercase tracking-widest">
+                    Lorem Ipsum
                 </div>
             </div>
             <Image
                 src={imageUrl}
                 alt=""
-                layout='fill'
+                width="1920px"
+                height="1000px"
+                layout="responsive"
             />
         </div>
     );
