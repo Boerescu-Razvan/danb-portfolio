@@ -1,6 +1,5 @@
-import type { NextPage } from 'next'
 
-const Contact: NextPage = () => {
+const Contact = (): JSX.Element => {
   return (
     <section className="bg-teal-100  min-h-screen">
       <h1 className="text-6xl font-bold">

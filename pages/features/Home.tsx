@@ -1,7 +1,6 @@
-import type { NextPage } from 'next'
 import Image from 'next/image'
 
-const Home: NextPage = () => {
+const Home= (): JSX.Element => {
   return (
     <section className="bg-slate-400  min-h-screen">
       <div className="w-full h-full bg-stone-600">

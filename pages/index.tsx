@@ -6,7 +6,6 @@ import Main from './layout/Main'
 
 const Home: NextPage = () => {
 
-
   return (
     <>
       <Head>

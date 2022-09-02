@@ -6,7 +6,7 @@ type Props = {
     show: boolean
 }
 
-const GalleryCard: React.FC<Props> = ({ imageUrl, show }) => {
+const GalleryCard = ({ imageUrl, show }: Props): JSX.Element => {
     return (
         <div
             className={`relative transition ease-in duration-300 transform ${show ? "" : "translate-y-16 opacity-0"

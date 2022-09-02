@@ -1,5 +1,3 @@
-import type { NextPage } from 'next'
-import Image from 'next/image'
 import GalleryCard from '../components/GalleryCard'
 
 const imageUrls = [
@@ -15,7 +13,7 @@ const imageUrls = [
   "/Portfolio/Portfolio10.jpg"
 ]
 
-const Portfolio: NextPage = () => {
+const Portfolio = (): JSX.Element => {
   return (
     <section className="bg-slate-300 min-h-screen">
       <h1 className="text-6xl font-bold">
