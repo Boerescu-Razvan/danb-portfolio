@@ -15,7 +15,7 @@ const imageUrls = [
 
 const Portfolio = (): JSX.Element => {
   return (
-    <section className="bg-slate-300 h-fit">
+    <section className="bg-slate-300 h-fit" id="Portfolio">
       <h1 className="text-6xl font-bold">
         Portfolio
       </h1>

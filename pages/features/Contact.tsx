@@ -1,7 +1,7 @@
 
 const Contact = (): JSX.Element => {
   return (
-    <section className="bg-teal-100 h-fit">
+    <section className="bg-teal-100 h-fit" id="Contact">
       <h1 className="text-6xl font-bold">
         CONTACT
       </h1>
