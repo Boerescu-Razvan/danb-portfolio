@@ -16,9 +16,6 @@ const imageUrls = [
 const Portfolio = (): JSX.Element => {
   return (
     <section className="bg-slate-300 h-fit" id="Portfolio">
-      <h1 className="text-6xl font-bold">
-        Portfolio
-      </h1>
       <div className="w-full h-full grid grid-cols-2 pb-14 bg-stone-600">
         {imageUrls.map((url, index) => (
           <GalleryCard
